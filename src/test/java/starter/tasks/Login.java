@@ -24,8 +24,13 @@ public class Login implements Task {
     }
        @Override
     public <T extends Actor> void performAs(T actor) {
-        actor.attemptsTo(Enter.theValue(user).into(LoginView.txtEmail),
-                Enter.theValue(password).into(LoginView.txtPassword),
+        actor.attemptsTo(
+                NavigateTo.login());
+        actor.attemptsTo(
+                Enter.theValue(user).into(LoginView.txtEmail));
+        actor.attemptsTo(
+                Enter.theValue(password).into(LoginView.txtPassword));
+       actor.attemptsTo(
                 Click.on(LoginView.btnSignin));
 
     }

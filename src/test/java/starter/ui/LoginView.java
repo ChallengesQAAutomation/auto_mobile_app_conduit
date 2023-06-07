@@ -8,16 +8,16 @@ public class LoginView {
 
 
 
-    public static Target txtEmail = Target.the("Precio de la reserva")
-            .located(AppiumBy.id("//android.widget.EditText[@text ='Ex: email@dominio.com']"));
+    public static Target txtEmail = Target.the("Input email")
+            .located(AppiumBy.xpath("//android.widget.EditText[@text ='Ex: email@dominio.com']"));
 
 
-    public static Target txtPassword = Target.the("seleccionar la reserva")
-            .located(AppiumBy.id("//android.widget.EditText[@text ='Password']"));
+    public static Target txtPassword = Target.the("Input password")
+            .located(AppiumBy.xpath("//android.widget.EditText[@text ='Password']"));
 
 
-    public static Target btnSignin = Target.the("seleccionar la reserva")
-            .located(AppiumBy.id("//android.widget.TextView[@text='Sign In']"));
+    public static Target btnSignin = Target.the("Button Sign In")
+            .located(AppiumBy.xpath("//android.widget.TextView[@text='Sign In']"));
 
 
 
