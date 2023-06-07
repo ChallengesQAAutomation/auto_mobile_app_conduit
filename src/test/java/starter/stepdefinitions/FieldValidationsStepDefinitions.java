@@ -6,10 +6,6 @@ import io.cucumber.java.en.When;
 
 public class FieldValidationsStepDefinitions {
 
-    @Given("the user is on the login screen")
-    public void givenUserIsOnLoginScreen() {
-        // Code to navigate to the login screen
-    }
 
     @When("they leave the required fields empty")
     public void whenTheyLeaveRequiredFieldsEmpty() {

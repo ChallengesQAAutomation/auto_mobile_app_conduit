@@ -9,6 +9,5 @@ public class SetupDefintions {
     @Before
     public void set_the_stage() {
         OnStage.setTheStage(new OnlineCast());
-
     }
 }

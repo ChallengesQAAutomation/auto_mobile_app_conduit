@@ -6,11 +6,6 @@ import io.cucumber.java.en.When;
 
 public class IncorrectStepDefinitions {
 
-    @Given("the user is on the login screen")
-    public void givenUserIsOnLoginScreen() {
-        // Code to navigate to the login screen
-    }
-
     @When("they enter incorrect credentials")
     public void whenTheyEnterIncorrectCredentials() {
         // Code to enter incorrect credentials

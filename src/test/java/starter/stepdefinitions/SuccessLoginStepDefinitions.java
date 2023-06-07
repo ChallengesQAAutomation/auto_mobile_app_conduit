@@ -21,12 +21,18 @@ public class SuccessLoginStepDefinitions {
 
     @Given("the user is on the login screen")
     public void givenUserIsOnLoginScreen() {
-        // Code to navigate to the login screen
+        theActorCalled("Jhon").attemptsTo(
+                NavigateTo.login()
+        );
     }
+
 
     @When("they enter valid credentials")
     public void whenTheyEnterValidCredentials() {
-        // Code to enter valid credentials
+
+        theActorInTheSpotlight().attemptsTo(
+                Login.withCredentials("prueba@accenture.com","123456")
+        );
     }
 
     @Then("they should be able to log in successfully")
