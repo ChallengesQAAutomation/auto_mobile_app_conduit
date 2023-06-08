@@ -25,9 +25,10 @@ gradle build
 
 
 ```
-gradle test aggregate
+gradle :test --tests "starter.RunnerTest"
+
 ```
 
 ## Reportes
 
-> target/site/serenity/index.html
+> [Click para ver reporte]() 
