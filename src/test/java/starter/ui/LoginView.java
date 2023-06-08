@@ -20,7 +20,10 @@ public class LoginView {
             .located(AppiumBy.xpath("//android.widget.TextView[@text='Sign In']"));
 
     public static Target lblisRequerid = Target.the("Label is required")
-            .located(AppiumBy.xpath("//android.widget.TextView[@text='This field is required\n']"));
+            .located(AppiumBy.xpath("//android.widget.TextView[@text='This field is required']"));
+
+    public static Target lblIncorrect_popup = Target.the("Label incorrect popup")
+            .located(AppiumBy.xpath("//android.widget.TextView[@text='Oops, something went wrong, verify your connection and try again, please']"));
 
 
 
