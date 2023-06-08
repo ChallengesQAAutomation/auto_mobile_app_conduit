@@ -1,1 +1,61 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="0" name="Login User" skipped="0" tests="4" time="109.85" timestamp="2023-06-07 07:52:56"><testcase name="Successful Login"/><testcase name="Field Validations email address"/><testcase name="Field Validations password"/><testcase name="Incorrect Login"/></testsuite>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="2" name="Login User" skipped="0" tests="4" time="188.02" timestamp="2023-06-07 08:03:16"><testcase name="Successful Login"/><testcase name="Field Validations email address"/><testcase name="Field Validations password"><failure message="Expected condition failed: waiting for By.xpath: //android.widget.Button[@content-desc=&quot;Login, tab, 2 of 2&quot;]/android.widget.ImageView to be present (tried for 5 second(s) with 100 milliseconds interval)&#10;Build info: version: '4.1.1', revision: 'e8fcc2cecf'&#10;System info: host: 'MacBook-Pro-de-MacBook.local', ip: 'fe80:0:0:0:e8:6f1a:a2f1:a05b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.3.1', java.version: '17.0.4.1'&#10;Driver info: driver.version: unknown" type="net.thucydides.core.webdriver.exceptions.ElementShouldBePresentException">Expected condition failed: waiting for By.xpath: //android.widget.Button[@content-desc="Login, tab, 2 of 2"]/android.widget.ImageView to be present (tried for 5 second(s) with 100 milliseconds interval)
+Build info: version: '4.1.1', revision: 'e8fcc2cecf'
+System info: host: 'MacBook-Pro-de-MacBook.local', ip: 'fe80:0:0:0:e8:6f1a:a2f1:a05b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.3.1', java.version: '17.0.4.1'
+Driver info: driver.version: unknown</failure><system-err>Expected condition failed: waiting for By.xpath: //android.widget.Button[@content-desc="Login, tab, 2 of 2"]/android.widget.ImageView to be present (tried for 5 second(s) with 100 milliseconds interval)
+Build info: version: '4.1.1', revision: 'e8fcc2cecf'
+System info: host: 'MacBook-Pro-de-MacBook.local', ip: 'fe80:0:0:0:e8:6f1a:a2f1:a05b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.3.1', java.version: '17.0.4.1'
+Driver info: driver.version: unknown
+starter.tasks.NavigateTo.performAs(NavigateTo.java:13)
+starter.stepdefinitions.SuccessLoginStepDefinitions.givenUserIsOnLoginScreen(SuccessLoginStepDefinitions.java:25)
+io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+io.cucumber.java.Invoker.invoke(Invoker.java:24)
+io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+io.cucumber.core.runner.TestStep.executeStep(TestStep.java:86)
+io.cucumber.core.runner.TestStep.run(TestStep.java:57)
+io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+io.cucumber.core.runner.TestCase.run(TestCase.java:95)
+io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$3(CucumberExecutionContext.java:110)
+io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:110)
+io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:144)
+io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:28)
+io.cucumber.junit.FeatureRunner.run(FeatureRunner.java:137)
+io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:259)
+io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:58)
+worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+</system-err></testcase><testcase name="Incorrect Login"><failure message="Expected condition failed: waiting for By.xpath: //android.widget.Button[@content-desc=&quot;Login, tab, 2 of 2&quot;]/android.widget.ImageView to be present (tried for 5 second(s) with 100 milliseconds interval)&#10;Build info: version: '4.1.1', revision: 'e8fcc2cecf'&#10;System info: host: 'MacBook-Pro-de-MacBook.local', ip: 'fe80:0:0:0:e8:6f1a:a2f1:a05b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.3.1', java.version: '17.0.4.1'&#10;Driver info: driver.version: unknown" type="net.thucydides.core.webdriver.exceptions.ElementShouldBePresentException">Expected condition failed: waiting for By.xpath: //android.widget.Button[@content-desc="Login, tab, 2 of 2"]/android.widget.ImageView to be present (tried for 5 second(s) with 100 milliseconds interval)
+Build info: version: '4.1.1', revision: 'e8fcc2cecf'
+System info: host: 'MacBook-Pro-de-MacBook.local', ip: 'fe80:0:0:0:e8:6f1a:a2f1:a05b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.3.1', java.version: '17.0.4.1'
+Driver info: driver.version: unknown</failure><system-err>Expected condition failed: waiting for By.xpath: //android.widget.Button[@content-desc="Login, tab, 2 of 2"]/android.widget.ImageView to be present (tried for 5 second(s) with 100 milliseconds interval)
+Build info: version: '4.1.1', revision: 'e8fcc2cecf'
+System info: host: 'MacBook-Pro-de-MacBook.local', ip: 'fe80:0:0:0:e8:6f1a:a2f1:a05b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.3.1', java.version: '17.0.4.1'
+Driver info: driver.version: unknown
+starter.tasks.NavigateTo.performAs(NavigateTo.java:13)
+starter.stepdefinitions.SuccessLoginStepDefinitions.givenUserIsOnLoginScreen(SuccessLoginStepDefinitions.java:25)
+io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+io.cucumber.java.Invoker.invoke(Invoker.java:24)
+io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+io.cucumber.core.runner.TestStep.executeStep(TestStep.java:86)
+io.cucumber.core.runner.TestStep.run(TestStep.java:57)
+io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+io.cucumber.core.runner.TestCase.run(TestCase.java:95)
+io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$3(CucumberExecutionContext.java:110)
+io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:110)
+io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:144)
+io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:28)
+io.cucumber.junit.FeatureRunner.run(FeatureRunner.java:137)
+io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:259)
+io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:58)
+worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+</system-err></testcase></testsuite>

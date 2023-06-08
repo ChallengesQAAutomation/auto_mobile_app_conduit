@@ -31,4 +31,4 @@ gradle :test --tests "starter.RunnerTest"
 
 ## Reportes
 
-> [Click para ver reporte]() 
+> [Click para ver reporte](https://challengesqaautomation.github.io/auto_mobile_app_conduit/target/site/serenity/index.html) 
