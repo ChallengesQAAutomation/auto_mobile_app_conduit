@@ -1,5 +1,5 @@
 
-# Automatizacion de aplicacion de Conduit
+# Automatizacion de aplicacion de Conduit :fire:
 
 
 # Requisitos
@@ -11,6 +11,10 @@
 - Appium 1.22.
 
 ## Instalacion
+
+```
+git clone https://github.com/ChallengesQAAutomation/auto_mobile_app_conduit.git
+````
 
 ```
 gradle build
@@ -36,3 +40,4 @@ gradle :test --tests "starter.RunnerTest"
 ## Reportes
 
 > [Click para ver reporte](https://challengesqaautomation.github.io/auto_mobile_app_conduit/target/site/serenity/index.html) 
+> [Ir al repository](https://github.com/ChallengesQAAutomation/auto_mobile_app_conduit)
