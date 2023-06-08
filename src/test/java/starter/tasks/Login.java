@@ -6,10 +6,8 @@ import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.actions.Click;
 import net.serenitybdd.screenplay.actions.Enter;
 import starter.ui.LoginView;
-
 import java.util.Arrays;
 
-import static starter.ui.SearchView.*;
 
 public class Login implements Task {
 
@@ -24,8 +22,7 @@ public class Login implements Task {
     }
        @Override
     public <T extends Actor> void performAs(T actor) {
-        actor.attemptsTo(
-                NavigateTo.login());
+
         actor.attemptsTo(
                 Enter.theValue(user).into(LoginView.txtEmail));
         actor.attemptsTo(

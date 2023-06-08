@@ -15,6 +15,7 @@ import static net.serenitybdd.screenplay.actors.OnStage.theActorCalled;
 import static net.serenitybdd.screenplay.actors.OnStage.theActorInTheSpotlight;
 import static org.hamcrest.Matchers.contains;
 import static org.hamcrest.Matchers.equalTo;
+import static starter.questions.LoggedInQuestions.logged;
 
 public class SuccessLoginStepDefinitions {
 
@@ -37,7 +38,7 @@ public class SuccessLoginStepDefinitions {
 
     @Then("they should be able to log in successfully")
     public void thenShouldBeAbleToLoginSuccessfully() {
-        // Code to verify successful login
+        theActorInTheSpotlight().should(seeThat(logged()));
     }
 
 }
