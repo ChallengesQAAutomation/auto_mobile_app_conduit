@@ -19,6 +19,9 @@ public class LoginView {
     public static Target btnSignin = Target.the("Button Sign In")
             .located(AppiumBy.xpath("//android.widget.TextView[@text='Sign In']"));
 
+    public static Target lblisRequerid = Target.the("Label is required")
+            .located(AppiumBy.xpath("//android.widget.TextView[@text='This field is required\n']"));
+
 
 
 
