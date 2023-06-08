@@ -44,3 +44,4 @@ gradle :test --tests "starter.RunnerTest"
 # Reportes :chart_with_upwards_trend:
 
 - [Click para ver reporte](https://challengesqaautomation.github.io/auto_mobile_app_conduit/target/site/serenity/index.html) 
+- [Casos de prueba](https://github.com/ChallengesQAAutomation/auto_mobile_app_conduit/blob/main/src/test/resources/features/login/userLogin.feature)   
