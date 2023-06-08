@@ -1,10 +1,11 @@
 
 # Automatizacion de aplicacion de Conduit :fire:
->Automatización de app móvil en Java, Screenplay, Cucumber, Appium y Gradle. Casos de prueba en lenguaje Gherkin para una ejecución eficiente y confiable. Mejora calidad y entrega rápida.
+
+> Automatización de app móvil en Java, Screenplay, Cucumber, Appium y Gradle. Casos de prueba en lenguaje Gherkin para una ejecución eficiente y confiable. Mejora calidad y entrega rápida.
 
 - [Ir al repository](https://github.com/ChallengesQAAutomation/auto_mobile_app_conduit)
  
-# Requisitos :card_index:
+## Requisitos :card_index:
 
 - JDK 16
 - Android Studio (Emulador)
@@ -24,7 +25,8 @@ gradle build
 
 ## Preparacion de entorno :computer:
 
--Iniciar el servidor de appium
+- Iniciar el servidor de appium
+- Instalar android studio
 - Iniciar el emulador Android
  
 ## Creacion Emaulador Android  :iphone:
