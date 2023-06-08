@@ -8,20 +8,9 @@ public class DashboardView {
 
 
 
-    public static Target labelPrice = Target.the("Precio de la reserva")
-            .located(AppiumBy.id("com.booking:id/recommended_block_subtotal_price_view"));
+    public static Target lblDashboard = Target.the("Button Sign In")
+            .located(AppiumBy.xpath("//android.widget.TextView[@text='No articles are here... yet']"));
 
-
-    public static Target btnSelectBooking = Target.the("seleccionar la reserva")
-            .located(AppiumBy.id("com.booking:id/rooms_item_select_text_view"));
-
-
-    public static Target btnSelectOption = Target.the("seleccionar la reserva")
-            .located(AppiumBy.id("com.booking:id/recommended_block_reserve_button"));
-
-
-    public static Target btnBooking = Target.the("reservar")
-            .located(By.xpath("//android.widget.Button[@text='Reserve']"));
 
 
 }

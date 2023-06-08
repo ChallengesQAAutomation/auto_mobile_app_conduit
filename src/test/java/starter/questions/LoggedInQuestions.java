@@ -2,15 +2,14 @@ package starter.questions;
 
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Question;
+import starter.ui.DashboardView;
 
-public class LoggedInQuestions implements Question {
+public class LoggedInQuestions implements Question<Boolean> {
 
     @Override
-    public String answeredBy(Actor actor) {
-        return "hola";//LoggedInAreaView.welcomeText.resolveFor(actor).getText();
+    public Boolean answeredBy(Actor actor) {
+        return DashboardView.lblDashboard.isVisibleFor(actor);
     }
 
-    public static Question<String> value(){
-        return new LoggedInQuestions();
-    }
+
 }
