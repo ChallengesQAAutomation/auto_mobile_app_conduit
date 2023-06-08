@@ -20,6 +20,12 @@ gradle build
 
 > Iniciar el servidor de appium
 > Iniciar el emulador Android
+> 
+## Creacion Emaulador Android 
+
+- Crear un dispostivo con el nombre ** AutomationTesting ** con Android 11 
+- Instalar la aplicacion de conduit previamente el apk esta en la ruta  ** src/test/resources/app-qa-release.apk **
+- Las propiedades de las capabilites estan en el archivo ** serenity.properties **
 
 ## **Run tests with gradle:**
 
