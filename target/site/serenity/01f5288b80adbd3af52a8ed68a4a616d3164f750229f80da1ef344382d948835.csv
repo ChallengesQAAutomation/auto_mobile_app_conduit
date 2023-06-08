@@ -1,3 +1,5 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Login User","Successful Login","SUCCESS","2023-06-07T20:03:16.6754-05:00[America/Bogota]","0.0","55.93"
-"Login User","Field Validations email address","SUCCESS","2023-06-07T20:04:15.407227-05:00[America/Bogota]","0.0","66.36"
+"Login User","Successful Login","SUCCESS","2023-06-07T20:19:25.512676-05:00[America/Bogota]","0.0","31.03"
+"Login User","Field Validations email address","SUCCESS","2023-06-07T20:19:57.095405-05:00[America/Bogota]","0.0","14.83"
+"Login User","Field Validations password","SUCCESS","2023-06-07T20:20:12.261422-05:00[America/Bogota]","0.0","16.18"
+"Login User","Incorrect Login","SUCCESS","2023-06-07T20:20:28.875558-05:00[America/Bogota]","0.0","23.39"

@@ -29,10 +29,8 @@ gradle build
 
 ## **Run tests with gradle:**
 
-
 ```
 gradle :test --tests "starter.RunnerTest"
-
 ```
 
 ## Reportes

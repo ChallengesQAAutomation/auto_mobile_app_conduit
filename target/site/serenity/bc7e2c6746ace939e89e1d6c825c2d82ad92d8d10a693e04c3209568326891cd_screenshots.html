@@ -154,7 +154,7 @@
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="bi bi-chat-text"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="bi bi-info-circle"></i></a> Report generated 07-06-2023 20:05</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="bi bi-info-circle"></i></a> Report generated 07-06-2023 20:20</span>
     <br style="clear:left"/>
 </div>
 
@@ -189,9 +189,9 @@
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><a href='##beforetable'><i class='bi bi-x-circle-fill failure-icon fa-2x' title='FAILURE'></i></a></span>
+                            <span class="outcome-icon"><a href='##beforetable'><i class='bi bi-check-circle-fill success-icon fa-2x' title='SUCCESS'></i></a></span>
                             <span class="test-case-title">
-                                <span class="failing-color">Incorrect Login
+                                <span class="success-color">Incorrect Login
                                     <span class="related-issue-title"></span>
                                 </span>
                             </span>
@@ -208,55 +208,29 @@
 
     <div id="beforetable"></div>
     <div id="contenttilttle">
-            <div class="screenshotFailure panel panel-danger">
-    <div style="display:block">
-        <div class="table">
-            <div class="row">
-                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
-                    <span class="error-message error-message-title">Element should be present exception: Expected condition failed: waiting for By.xpath: //android.widget.Button[@content-desc='Login, tab, 2 of 2']/android.widget.ImageView to be present (tried for 5 second(s) with 100 milliseconds interval)Build info: version: '4.1.1', revision: 'e8fcc2cecf'System info: host: 'MacBook-Pro-de-MacBook.local', ip: 'fe80:0:0:0:e8:6f1a:a2f1:a05b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.3.1', java.version: '17.0.4.1'Driver info: driver.version: unknown</span>
-                </div>
-                <div class="col-sm-2">
-                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-overall"
-                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="bi bi-eye"></i> More details</a>
-                </div>
-             </div>
-        </div>
-    <div>
-
-    <!-- Details Section -->
-    <div class="row stacktrace-details">
-      <div class="col">
-        <div class="collapse multi-collapse" id="stacktraceModal-overall">
-            <div class="card">
-                <div class="card-header">
-                    <h4>net.thucydides.core.webdriver.exceptions.ElementShouldBePresentException </h4>
-                </div>
-                <div class="card-body">
-                    <div>
-                        <pre>starter.tasks.NavigateTo.performAs(NavigateTo.java:13)<br />starter.stepdefinitions.SuccessLoginStepDefinitions.givenUserIsOnLoginScreen(SuccessLoginStepDefinitions.java:25)<br />io.cucumber.java.Invoker.doInvoke(Invoker.java:66)<br />io.cucumber.java.Invoker.invoke(Invoker.java:24)<br />io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)<br />io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)<br />io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)<br />io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)<br />io.cucumber.core.runner.TestStep.executeStep(TestStep.java:86)<br />io.cucumber.core.runner.TestStep.run(TestStep.java:57)<br />io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)<br />io.cucumber.core.runner.TestCase.run(TestCase.java:95)<br />io.cucumber.core.runner.Runner.runPickle(Runner.java:75)<br />io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$3(CucumberExecutionContext.java:110)<br />io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)<br />io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:110)<br />io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:144)<br />io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:28)<br />io.cucumber.junit.FeatureRunner.run(FeatureRunner.java:137)<br />io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:259)<br />io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:58)<br />worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)<br />worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)<br /></pre>
-                    </div>
-
-                    <h4>
-                        Caused by: org.openqa.selenium.TimeoutException
-                    </h4>
-                    <div>
-                            <pre>Expected condition failed: waiting for By.xpath: //android.widget.Button[@content-desc=&quot;Login, tab, 2 of 2&quot;]/android.widget.ImageView to be present (tried for 5 second(s) with 100 milliseconds interval)<br>Build info: version: '4.1.1', revision: 'e8fcc2cecf'<br>System info: host: 'MacBook-Pro-de-MacBook.local', ip: 'fe80:0:0:0:e8:6f1a:a2f1:a05b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.3.1', java.version: '17.0.4.1'<br>Driver info: driver.version: unknown</pre>
-                        <pre>starter.tasks.NavigateTo.performAs(NavigateTo.java :13)<br />starter.stepdefinitions.SuccessLoginStepDefinitions.givenUserIsOnLoginScreen(SuccessLoginStepDefinitions.java :25)<br />io.cucumber.java.Invoker.doInvoke(Invoker.java :66)<br />io.cucumber.java.Invoker.invoke(Invoker.java :24)<br />io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java :47)<br />io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java :29)<br />io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java :66)<br />io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java :63)<br />io.cucumber.core.runner.TestStep.executeStep(TestStep.java :86)<br />io.cucumber.core.runner.TestStep.run(TestStep.java :57)<br />io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java :51)<br />io.cucumber.core.runner.TestCase.run(TestCase.java :95)<br />io.cucumber.core.runner.Runner.runPickle(Runner.java :75)<br />io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$3(CucumberExecutionContext.java :110)<br />io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java :23)<br />io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java :110)<br />io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java :144)<br />io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java :28)<br />io.cucumber.junit.FeatureRunner.run(FeatureRunner.java :137)<br />io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java :259)<br />io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java :58)<br />worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java :69)<br />worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java :74)<br /></pre>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-                <div class="panel-body">
-                    <a href="pagesource7924683262072329219.html" target="_blank" class="btn btn-info">HTML Source</a>
-                </div>
-            </div>
         <div class="slider-wrapper theme-default">
             <div id="slider">
-                <img src="b937001ec85962720209d2302780efd7c12a0b28e1737fab55557117adf4628e.png" title=" Given the user is on the login screen" width="1440"/>
-                <img src="b937001ec85962720209d2302780efd7c12a0b28e1737fab55557117adf4628e.png" title=" Jhon navigate to" width="1440"/>
-                <img src="b937001ec85962720209d2302780efd7c12a0b28e1737fab55557117adf4628e.png" title=" Jhon clicks on  Button Login" width="1440"/>
-                <img src="791113673fe6e40529b835883fd90d8d7a61eb705126bfbf1296730250df73a7.png" title=" Jhon clicks on  Button Login (completed): <span class='failing-color'>FAILURE</span>" width="1440"/>
+                <img src="598ff64e850c5c1bb5ee67d406beb0694b4266d8217d0db106804894bead8f1c.png" title=" Given the user is on the login screen" width="1440"/>
+                <img src="598ff64e850c5c1bb5ee67d406beb0694b4266d8217d0db106804894bead8f1c.png" title=" Jhon navigate to" width="1440"/>
+                <img src="598ff64e850c5c1bb5ee67d406beb0694b4266d8217d0db106804894bead8f1c.png" title=" Jhon clicks on  Button Login" width="1440"/>
+                <img src="e5a62e73033ac70a97a0587beb4e291603e663dbcf08fb41a0ff94d23e0894e5.png" title=" Jhon clicks on  Button Login" width="1440"/>
+                <img src="e5a62e73033ac70a97a0587beb4e291603e663dbcf08fb41a0ff94d23e0894e5.png" title=" Jhon clicks on  Button Login (completed)" width="1440"/>
+                <img src="e5a62e73033ac70a97a0587beb4e291603e663dbcf08fb41a0ff94d23e0894e5.png" title=" Jhon navigate to (completed)" width="1440"/>
+                <img src="e5a62e73033ac70a97a0587beb4e291603e663dbcf08fb41a0ff94d23e0894e5.png" title=" Given the user is on the login screen (completed)" width="1440"/>
+                <img src="a2967c9b18abedb5ae0726677abb27b201d58ac9edcd0e8a86b915f1b18576c1.png" title=" When they enter incorrect credentials" width="1440"/>
+                <img src="a2967c9b18abedb5ae0726677abb27b201d58ac9edcd0e8a86b915f1b18576c1.png" title=" Jhon enters 'prueba@accenture.com' into Input email" width="1440"/>
+                <img src="3eb084b84fa0698f8ba31dbc79e080ad27d72c329463bd19b4b55eec9d8499ea.png" title=" Jhon enters 'prueba@accenture.com' into Input email" width="1440"/>
+                <img src="3eb084b84fa0698f8ba31dbc79e080ad27d72c329463bd19b4b55eec9d8499ea.png" title=" Jhon enters 'prueba@accenture.com' into Input email (completed)" width="1440"/>
+                <img src="3eb084b84fa0698f8ba31dbc79e080ad27d72c329463bd19b4b55eec9d8499ea.png" title=" Jhon enters '1234567' into Input password" width="1440"/>
+                <img src="a88e6bcb367d4fef895ac4155eaadda909501638aee90c72131a27fc4dbbccf5.png" title=" Jhon enters '1234567' into Input password" width="1440"/>
+                <img src="a88e6bcb367d4fef895ac4155eaadda909501638aee90c72131a27fc4dbbccf5.png" title=" Jhon enters '1234567' into Input password (completed)" width="1440"/>
+                <img src="a88e6bcb367d4fef895ac4155eaadda909501638aee90c72131a27fc4dbbccf5.png" title=" Jhon clicks on Button Sign In" width="1440"/>
+                <img src="b8dbe57b9e2e0aa045dbf9bd9092dc2dba2661dce373d9fabef46711b9433169.png" title=" Jhon clicks on Button Sign In" width="1440"/>
+                <img src="b8dbe57b9e2e0aa045dbf9bd9092dc2dba2661dce373d9fabef46711b9433169.png" title=" Jhon clicks on Button Sign In (completed)" width="1440"/>
+                <img src="482c654f5a05ad34020e64edfb0d55cdd129f81c0dd6c50f08ec428e9e0a87f1.png" title=" When they enter incorrect credentials (completed)" width="1440"/>
+                <img src="482c654f5a05ad34020e64edfb0d55cdd129f81c0dd6c50f08ec428e9e0a87f1.png" title=" Then an error message should be displayed" width="1440"/>
+                <img src="482c654f5a05ad34020e64edfb0d55cdd129f81c0dd6c50f08ec428e9e0a87f1.png" title=" Then logged incorrect questions" width="1440"/>
+                <img src="482c654f5a05ad34020e64edfb0d55cdd129f81c0dd6c50f08ec428e9e0a87f1.png" title=" Then an error message should be displayed (completed): <span class='success-color'>SUCCESS</span>" width="1440"/>
             </div>
         </div>
 

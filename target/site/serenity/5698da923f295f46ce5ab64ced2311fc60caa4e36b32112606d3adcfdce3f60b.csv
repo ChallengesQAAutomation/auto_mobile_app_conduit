@@ -1,4 +1,2 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Login User","Successful Login","SUCCESS","2023-06-07T20:03:16.6754-05:00[America/Bogota]","0.0","55.93"
-"Login User","Field Validations password","FAILURE","2023-06-07T20:05:23.429382-05:00[America/Bogota]","0.0","33.5"
-"Login User","Incorrect Login","FAILURE","2023-06-07T20:05:58.669785-05:00[America/Bogota]","0.0","32.24"
+"Login User","Successful Login","SUCCESS","2023-06-07T20:19:25.512676-05:00[America/Bogota]","0.0","31.03"
